@@ -1,5 +1,5 @@
-@import "./reset.css";
-@import "./Movie.css";
+@import "../reset.css";
+@import "../components/Movie.css";
 
 html {
   font-size: 10px;
