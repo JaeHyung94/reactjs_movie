@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+}
+
+.nav .nav__item {
+  padding: 50% 30% 50% 30%;
+  font-size: 1.3rem;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10%;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.nav .nav__item:last-child {
+  margin-top: 10px;
+}

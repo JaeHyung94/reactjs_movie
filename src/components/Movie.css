@@ -11,6 +11,11 @@
   /* min-height: 200px; */
 }
 
+.movies a {
+  display: contents;
+  text-decoration: none;
+}
+
 .movie .movie__pic {
   width: 40%;
   height: 100%;
@@ -40,6 +45,7 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 5%;
+  color: black;
 }
 
 .movie__basic .movie__title {
