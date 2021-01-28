@@ -1,0 +1,7 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #898989;
+  font-size: 3rem;
+}

@@ -1,13 +1,8 @@
 import React from "react";
+import "./About.css";
 
-class Detail extends React.Component {
-  componentDidMount() {
-    const { location } = this.props;
-    console.log(location.state);
-  }
-  render() {
-    return <div> Hello!! </div>;
-  }
-}
+const About = () => {
+  return <div className="about">This is About Page</div>;
+};
 
 export default About;
